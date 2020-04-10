@@ -1,0 +1,323 @@
+/*************************************************************************************************/
+/*                                       Tag Selectors                                           */
+/*************************************************************************************************/
+body{
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  border-color: #625757;
+  border-style: solid none none;
+  border-width: 1px;
+  width: 97%;
+}
+
+p {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 1.1rem;
+  color: #3c4245;
+}
+
+/*************************************************************************************************/
+/*                                      Class Selectors                                          */
+/*************************************************************************************************/
+
+/* General Stuff */
+.colored-section {
+  background-color: #c9d6df;
+}
+
+.container-fluid {
+  /* padding: 3% 15% 5.5%; */
+}
+
+.container {
+  /* padding: 3% 15% 5.5%; */
+}
+
+.rectangle1{
+  background-color: #000;
+  position: absolute;
+  /* top: 8px;
+  left: 400px;
+  bottom: 200px; */
+  opacity: 0.2;
+  max-width: 40rem;
+  z-index: 1;
+}
+
+.rectangle2{
+  background-color: #000;
+  left: 32rem;
+  max-width: 40rem;
+  opacity: 0.2;
+  position: relative;
+  z-index: 1;
+}
+
+/* .highlight {
+    background-color: #fff2ac;
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+} */
+
+.main-logo{
+  width: 8rem;
+}
+
+/* Headings */
+.section-header {
+  color: #625757;
+  font-family: "Courier New", "Times New Roman";
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.sub-header{
+  color: #625757;
+  font-family: "Courier New", "Times New Roman";
+  font-weight: bold;
+  padding: 1.2rem 0;
+}
+
+/* Paragraphs */
+.information {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  width: 28rem;
+  vertical-align: middle;
+}
+
+.custom-left-section,
+.custom-right-section {
+  padding: 0 1rem 2rem;
+}
+
+/* Intro section */
+#intro {
+
+}
+
+.bio-info {
+  color: #ffffff;
+  font-family: "Cutive Mono", monospace;
+  font-size: 2rem;
+  margin: 0 0 2rem;
+  max-width: 40rem;
+  z-index: 2;
+}
+
+.intro-container{
+  padding: 9% 5%;
+  background-image: url('../images/journal-minimalist-2.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+  max-width:100%;
+  max-height:100%;
+  position: relative;
+}
+
+.main-header {
+  color: #fff;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 5.2rem;
+  font-weight: bold;
+  margin: 2rem auto;
+  background: -webkit-linear-gradient(90deg, #f7f7f7 100%, #393e46 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 2;
+}
+
+/* Navigation Bar Section */
+.custom-navbr-bg{
+  background-color: #f0f5f9;
+}
+
+.custom-navbr-text {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  padding: 0 18px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* About me Section */
+#about-me {
+  background-color: #ffffff;
+  padding: 3% 12%;
+}
+
+#about-me .sub-header {
+  padding: 0;
+}
+
+.about-me-info {
+  margin: 0 auto;
+  width: 49%;
+}
+
+.profile-pic{
+  height: 200px;
+  margin: 1.5% 0 2%;
+  width: 200px;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #bcbab8;
+  padding: 3% 12%;
+}
+
+/* Personal projects Section */
+#personal-projects {
+  background-color: #ece8d9;
+  padding: 3% 12%;
+}
+
+.asl-hands {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.math-operators {
+  margin: auto;
+  width: 192px;
+  vertical-align: middle;
+}
+
+/* Carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.carousel-inner {
+  margin-bottom:50px;
+}
+
+.carousel-item {
+  height: 27rem;
+}
+
+.carousel-information {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  width: 28rem;
+  vertical-align: middle;
+}
+
+
+/* Experience Section */
+#experience{
+  background-color: #9d8f8f;
+  padding: 3% 12%;
+}
+
+#experience h2{
+  color: #fff;
+}
+
+#experience p{
+  color: #fff;
+}
+
+
+#experience h3{
+  color: #fff;
+}
+
+.books {
+  height: 173px;
+  margin: 0 auto;
+  width: 172px;
+  vertical-align: middle;
+}
+
+.computer {
+  height: 145px;
+  margin: auto;
+  width: 164px;
+  vertical-align: middle;
+}
+
+.people {
+  height: 97px;
+  margin: auto;
+  width: 311px;
+  vertical-align: middle;
+}
+
+.rep-models {
+  height: 160px;
+  position: relative;
+  width: 123px
+}
+
+/* Footer Section*/
+#footer{
+  background-color: #625757;
+  padding: 2% 0 1.6%;
+}
+
+#footer .sub-header {
+  color: #ffffff;
+}
+
+#footer p {
+  color: #ffffff;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+.footer-info {
+  margin: auto;
+  padding: 0 0 20px;
+  width: 40%;
+}
+
+.social-icon {
+  padding: 0 0.7rem 0.8rem;
+  color: white;
+}
+
+
+/*************************************************************************************************/
+/*                                  Pseudo Class Selectors                                       */
+/*************************************************************************************************/
+
+::-webkit-scrollbar {
+    background-color: #c9d6df ;
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
