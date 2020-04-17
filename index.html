@@ -5,93 +5,119 @@
     <meta name="description" content="A notebook which portrays information regarding Giordan Andrew, a Computer Engineering student from Toronto, Ontario.">
     <meta name="keywords" content="Giordan, Andrew, notebook, cv">
     <meta name="author" content="Giordan Andrew">
-    <link rel="icon" href="images/giordan-andrew-logo.png">
+    <link rel="icon" href="images/logo.png">
     <title>Giordan's Portofolio</title>
 
     <!-- Style sheets -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/ga-style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/f3da30bb5f.js" crossorigin="anonymous"></script>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Cutive+Mono|Sorts+Mill+Goudy|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </head>
   <body>
 
     <!-- Intro -->
-    <section class="colored-section" id ="intro">
+    <section class="" id ="intro">
+
       <!-- Nav Bar -->
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light custom-navbr-bg">
-        <a class="navbar-brand custom-navbr-text" href=""><i class="far fa-user"></i> Giordan's Portofolio</a>
-        <!-- <a class="navbar-brand custom-navbr-text" href=""><img class="main-logo" src="images/giordan-andrew-main-logo.png" alt=""></a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><i class="far fa-user"></i> Giordan's Portofolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link custom-navbr-text" href="#">Home</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link custom-navbr-text" href="#">Portofolio</a>
+              <a class="nav-link" href="#">Portofolio</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Special Thanks
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://unsplash.com/@essentialiving">Photo by Essentialiving on Unsplash</a>
+                  <a class="dropdown-item" href="https://unsplash.com/@vorosbenisop">Photo by Benjamin Voros on Unsplash</a>
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item">
+                <button class="btn btn-success ml-auto mr-1">Message Me</button>
+            </li> -->
           </ul>
         </div>
+          <button class="btn btn-success ml-auto mr-1">Message Me</button>
       </nav>
 
       <div class="container-fluid">
         <div class="row">
           <div class="intro-container col-lg-12">
-            <div class="rectangle2">
               <h1 class="main-header">Giordan Andrew.</h1>
-            </div>
-            <!-- <p class="bio-info">a computer engineering student, web designer,& programmer.</p> -->
-            <div class="rectangle1">
-              <p class="bio-info">a computer engineering student, web designer,& programmer.</p>
-            </div>
-
+              <p class="bio-info">a computer engineering student, web designer, & programmer.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- About Me -->
-    <section class="" id ="about-me">
-      <div class="profile">
-        <h2 class="section-header">About Me.</h2>
-        <hr>
-        <img class="profile-pic" src="images/giordan-summer-pic.png" alt="A picture of Giordan">
-        <h2 class="sub-header">Hi.</h2>
-        <p class = "about-me-info"><wbr>I'm Giordan, a computer engineering student from Toronto, Ontario.<wbr>
-          <wbr> I have a huge passion for software development, design, and photography.<wbr> <wbr>I also love
-          skateboarding and coffee! ☕<wbr></p>
-      </div>
+    <section class="bg-light text-full-white" id ="about-me">
+        <div class="container">
+          <h2 class="section-header text-night-black">About Me.</h2>
+          <hr>
+          <div class="row">
+            <div class="col-lg-6">
+              <p class = "about-me-info text-charcoal lead text-left"><wbr>Giordan Andrew is a computer engineering student from Toronto, Ontario.<wbr>
+                <wbr> He has huge passion for software development, design, and photography.<wbr> <wbr> He also loves to
+                skateboard and drink coffee! ☕<wbr></p>
+            </div>
+            <div class="col-lg-6">
+                <img class="profile-pic" src="images/giordan-summer-pic.png" alt="A picture of Giordan">
+            </div>
+          </div>
+        </div>
     </section>
 
     <!-- Skills -->
     <section class="colored-section" id ="skills">
-      <h2 class="section-header">Skills.</h2>
-      <hr>
       <div class="container">
-        <h3 class="sub-header">Programming.</h3>
         <div class="row">
-          <div class="col-lg-6 custom-left-section">
-            <p class="information">I am equipped with a wide variety of programming languages
+          <h2 class="section-header">Skills.</h2>
+          <hr>
+          <h3 class="sub-header">Programming.</h3>
+          <div class="col-lg-0 custom-left-section">
+            <!-- <p class="information text-full-white grey-shadow full-black-shadow">I am equipped with a wide variety of programming languages
+                 under my belt such as Java, Python, C, and have written over
+                 1000+ computer programs throughout my 5 years of coding
+                 experience. Utilizing my knowledge and experience, I am
+                 certain that I can tackle any challenge!
+            </p> -->
+          </div>
+          <div class="col-lg-12 custom-right-section">
+            <p class="information text-black grey-shadow full-black-shadow">I am equipped with a wide variety of programming languages
                  under my belt such as Java, Python, C, and have written over
                  1000+ computer programs throughout my 5 years of coding
                  experience. Utilizing my knowledge and experience, I am
                  certain that I can tackle any challenge!
             </p>
-          </div>
-          <div class="col-lg-6 custom-right-section">
-              <img class="computer" src="images/computer.png" alt="A picture of a computer.">
+              <!-- <img class="computer" src="images/computer.png" alt="A picture of a computer."> -->
           </div>
         </div>
       </div>
@@ -99,12 +125,11 @@
 
     <!-- Experience -->
     <section class="" id="experience">
-        <h2 class="section-header">Experience.</h2>
-        <hr>
         <div class="container">
-
           <!-- Exp 1 Header -->
           <div class="row">
+            <h2 class="section-header">Experience.</h2>
+            <hr>
             <div class="col-lg-6">
             </div>
             <div class="col-lg-6">
@@ -178,6 +203,7 @@
 
     <!-- Personal Projects -->
     <section class="colored-section" id ="personal-projects">
+      <h1>Hello</h1>
       <h2 class="section-header">Personal Projects.</h2>
       <hr>
       <section class="" id="testimonials">

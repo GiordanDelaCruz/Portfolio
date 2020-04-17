@@ -2,20 +2,25 @@
 /*                                       Tag Selectors                                           */
 /*************************************************************************************************/
 body{
-  text-align: center;
+  text-align: left;
+  line-height: 1.5;
   margin: 0;
 }
 
 hr {
-  border-color: #625757;
-  border-style: solid none none;
-  border-width: 1px;
-  width: 97%;
+  /* border-color: #fff;
+  border-style: solid double;
+  border-width: 4px;
+  width: 97%; */
+
+  border: none;
+  border-bottom: 3px solid black;
 }
 
 p {
   font-family: 'Sorts Mill Goudy', serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  line-height: 1.6;
   color: #3c4245;
 }
 
@@ -29,55 +34,32 @@ p {
 }
 
 .container-fluid {
+  text-align: center;
   /* padding: 3% 15% 5.5%; */
 }
 
 .container {
-  /* padding: 3% 15% 5.5%; */
-}
-
-.rectangle1{
-  background-color: #000;
-  position: absolute;
-  /* top: 8px;
-  left: 400px;
-  bottom: 200px; */
-  opacity: 0.2;
-  max-width: 40rem;
-  z-index: 1;
-}
-
-.rectangle2{
-  background-color: #000;
-  left: 32rem;
-  max-width: 40rem;
-  opacity: 0.2;
-  position: relative;
-  z-index: 1;
-}
-
-/* .highlight {
-    background-color: #fff2ac;
-    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
-} */
-
-.main-logo{
-  width: 8rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 /* Headings */
 .section-header {
-  color: #625757;
-  font-family: "Courier New", "Times New Roman";
-  font-size: 3.2rem;
+  display: block;
+  font-family: 'Cinzel', serif;
+  font-size: 4.2rem;
   font-weight: bold;
+  letter-spacing: 0.04em;
+  margin: 0 auto;
 }
 
 .sub-header{
-  color: #625757;
-  font-family: "Courier New", "Times New Roman";
+  color: #000;
+  font-family: 'Arvo', serif;
+  font-size: 3rem;
   font-weight: bold;
-  padding: 1.2rem 0;
+  padding: 1.8rem;
+  letter-spacing: 0.04em;
 }
 
 /* Paragraphs */
@@ -85,7 +67,6 @@ p {
   display: inline-block;
   margin: 0 auto;
   text-align: left;
-  width: 28rem;
   vertical-align: middle;
 }
 
@@ -100,35 +81,35 @@ p {
 }
 
 .bio-info {
-  color: #ffffff;
+  color: #393e46;
   font-family: "Cutive Mono", monospace;
   font-size: 2rem;
-  margin: 0 0 2rem;
+  font-weight: bold;
+  margin: 0 auto;
   max-width: 40rem;
+  text-shadow: 1px 1px 2px #fff, 0 0 25px #f7f7f7, 0 0 5px #ffff;
   z-index: 2;
 }
 
 .intro-container{
-  padding: 9% 5%;
+  padding: 9% 5% 9%;
   background-image: url('../images/journal-minimalist-2.jpg');
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-  max-width:100%;
-  max-height:100%;
   position: relative;
 }
 
 .main-header {
-  color: #fff;
+  color: #f7f7f7;
+  display: block;
   font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 5.2rem;
+  font-size: 5.8rem;
   font-weight: bold;
-  margin: 2rem auto;
-  background: -webkit-linear-gradient(90deg, #f7f7f7 100%, #393e46 0%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  z-index: 2;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  text-shadow: 1px 1px 2px #393e46, 0 0 25px #000, 0 0 5px #929aab;
+
 }
 
 /* Navigation Bar Section */
@@ -140,50 +121,51 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.navbar {
-  font-size: 1.2rem;
+.navbar-brand {
+  padding: 0 18px 0 36px;
 }
 
-.navbar-brand {
-  font-size: 1.6rem;
-  padding: 0 18px;
+.nav-link{
+
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0 1.5rem;
 }
 
 /* About me Section */
 #about-me {
-  background-color: #ffffff;
-  padding: 3% 12%;
-}
 
-#about-me .sub-header {
-  padding: 0;
 }
 
 .about-me-info {
-  margin: 0 auto;
-  width: 49%;
+  font-size: 1.4rem;
+  margin: 0rem auto 1em;
 }
 
 .profile-pic{
-  height: 200px;
-  margin: 1.5% 0 2%;
-  width: 200px;
+  bottom: 1rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 15.4rem;
 }
 
 /* Skills Section */
 #skills {
-  background-color: #bcbab8;
-  padding: 3% 12%;
+  /* background-color: #bcbab8; */
+  background-image: url('../images/study.jpg');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color: #eeeeee;
+  padding: 6% 2%;
 }
 
 /* Personal projects Section */
 #personal-projects {
   background-color: #ece8d9;
-  padding: 3% 12%;
+  padding: 6% 2%;
 }
 
 .asl-hands {
@@ -229,20 +211,7 @@ p {
 /* Experience Section */
 #experience{
   background-color: #9d8f8f;
-  padding: 3% 12%;
-}
-
-#experience h2{
-  color: #fff;
-}
-
-#experience p{
-  color: #fff;
-}
-
-
-#experience h3{
-  color: #fff;
+  padding: 6% 2%;
 }
 
 .books {
@@ -307,7 +276,7 @@ p {
 /*************************************************************************************************/
 
 ::-webkit-scrollbar {
-    background-color: #c9d6df ;
+    background-color: #f8f9fa ;
     width: 14px;
 }
 
