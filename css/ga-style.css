@@ -52,16 +52,20 @@
 }
 
 /* Text Colors */
-.text-black{
-  color: #333;
+.text-full-black{
+  color: #000;
 }
 
 .text-night-black{
   color: #101010;
 }
 
-.text-full-black{
-  color: #000;
+.text-black{
+  color: #333;
+}
+
+.text-charcoal{
+  color: #41444b;
 }
 
 .text-full-white{
@@ -83,4 +87,12 @@
 
 .full-black-shadow{
   text-shadow: 1px 1px #000
+}
+
+.shadow-3d{
+  text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.grey-shadow-2{
+  
 }

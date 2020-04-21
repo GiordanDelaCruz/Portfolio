@@ -8,10 +8,6 @@
     <link rel="icon" href="images/logo.png">
     <title>Giordan's Portofolio</title>
 
-    <!-- Style sheets -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/ga-style.css">
-
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -24,6 +20,12 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Cutive+Mono|Sorts+Mill+Goudy|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300,400&display=swap" rel="stylesheet">
+
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="css/ga-style.css">
+    <link rel="stylesheet" href="css/styles.css">
+
 
   </head>
   <body>
@@ -59,12 +61,14 @@
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-            <!-- <li class="nav-item">
-                <button class="btn btn-success ml-auto mr-1">Message Me</button>
-            </li> -->
+            <li class="nav-item">
+                <button class="btn btn-success ml-auto mr-1">
+                    <a href="mailto:giordandelacruz@gmail.com"><i class="fas fa-paper-plane"></i> Message Me</a>
+                </button>
+            </li>
           </ul>
         </div>
-          <button class="btn btn-success ml-auto mr-1">Message Me</button>
+          <!-- <button class="btn btn-success ml-auto mr-1">Message Me</button> -->
       </nav>
 
       <div class="container-fluid">
@@ -79,48 +83,27 @@
 
     <!-- About Me -->
     <section class="bg-light text-full-white" id ="about-me">
-        <div class="container">
-          <h2 class="section-header text-night-black">About Me.</h2>
-          <hr>
-          <div class="row">
-            <div class="col-lg-6">
-              <p class = "about-me-info text-charcoal lead text-left"><wbr>Giordan Andrew is a computer engineering student from Toronto, Ontario.<wbr>
-                <wbr> He has huge passion for software development, design, and photography.<wbr> <wbr> He also loves to
-                skateboard and drink coffee! ☕<wbr></p>
-            </div>
-            <div class="col-lg-6">
-                <img class="profile-pic" src="images/giordan-summer-pic.png" alt="A picture of Giordan">
-            </div>
-          </div>
-        </div>
-    </section>
 
-    <!-- Skills -->
-    <section class="colored-section" id ="skills">
-      <div class="container">
-        <div class="row">
-          <h2 class="section-header">Skills.</h2>
-          <hr>
-          <h3 class="sub-header">Programming.</h3>
-          <div class="col-lg-0 custom-left-section">
-            <!-- <p class="information text-full-white grey-shadow full-black-shadow">I am equipped with a wide variety of programming languages
-                 under my belt such as Java, Python, C, and have written over
-                 1000+ computer programs throughout my 5 years of coding
-                 experience. Utilizing my knowledge and experience, I am
-                 certain that I can tackle any challenge!
-            </p> -->
-          </div>
-          <div class="col-lg-12 custom-right-section">
-            <p class="information text-black grey-shadow full-black-shadow">I am equipped with a wide variety of programming languages
-                 under my belt such as Java, Python, C, and have written over
-                 1000+ computer programs throughout my 5 years of coding
-                 experience. Utilizing my knowledge and experience, I am
-                 certain that I can tackle any challenge!
-            </p>
-              <!-- <img class="computer" src="images/computer.png" alt="A picture of a computer."> -->
+        <div class="container">
+          <h2 class="section-header text-night-black text-left">About Me.</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <h1 class="text-black hello-header text-left">Hello,</h1>
+              <p class="sp-paragraph text-left text-full-black">I'm Giordan, a computer engineering student from Toronto, Ontario.</p>
+              <p class="light-paragraph text-black text-left">
+                I huge passion for software development and design. I also love to skateboard and drink coffee! ☕</p>
+                <p class="light-paragraph text-black text-left">I am equipped with a wide variety of programming languages
+                     under my belt such as Java, Python, C, and have written over
+                     1000+ computer programs throughout my 5 years of coding
+                     experience. Utilizing my knowledge and experience, I am
+                     certain that I can tackle any challenge!
+                </p>
+            </div>
+            <div class="col-lg-8">
+              <img class="profile-pic img-box-shadow" src="images/giordan-hp.jpg" alt="A picture of Giordan">
+            </div>
           </div>
         </div>
-      </div>
     </section>
 
     <!-- Experience -->
@@ -129,7 +112,7 @@
           <!-- Exp 1 Header -->
           <div class="row">
             <h2 class="section-header">Experience.</h2>
-            <hr>
+
             <div class="col-lg-6">
             </div>
             <div class="col-lg-6">
@@ -203,9 +186,8 @@
 
     <!-- Personal Projects -->
     <section class="colored-section" id ="personal-projects">
-      <h1>Hello</h1>
       <h2 class="section-header">Personal Projects.</h2>
-      <hr>
+
       <section class="" id="testimonials">
         <div id="personal-projects-carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators ">
