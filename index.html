@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="css/ga-style.css">
     <link rel="stylesheet" href="css/styles.css">
 
-
   </head>
   <body>
 
@@ -47,7 +46,13 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portofolio</a>
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#personal-projects">Projects</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -56,7 +61,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="https://unsplash.com/@essentialiving">Photo by Essentialiving on Unsplash</a>
                   <a class="dropdown-item" href="https://unsplash.com/@vorosbenisop">Photo by Benjamin Voros on Unsplash</a>
-                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Photo by Hasith</a>
                 <a class="dropdown-item" href="#">Another action</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
@@ -84,7 +89,7 @@
     <section class="bg-light text-full-white" id ="about-me">
 
         <div class="container">
-          <h2 class="section-header text-night-black text-left">About Me.</h2>
+          <h2 class="section-header text-black text-left">About Me.</h2>
           <div class="row">
             <div class="col-lg-5">
               <h1 class="text-black hello-header text-left">Hello,</h1>
@@ -106,7 +111,7 @@
     </section>
 
     <!-- Experience -->
-    <section class="bg-light-grey-2" id="experience">
+    <section class="bg-light-grey-3" id="experience">
         <div class="container">
           <h2 class="section-header text-night-black text-left">Experience.</h2>
           <!-- Exp 1 Header -->
@@ -183,10 +188,81 @@
     </section>
 
     <!-- Personal Projects -->
-    <section class="colored-section" id ="personal-projects">
-      <h2 class="section-header text-black">Personal Projects.</h2>
+    <section class="bg-light" id ="personal-projects">
+      <div class="container">
+        <h2 class="section-header text-black">Personal Projects.</h2>
 
-      <section class="" id="testimonials">
+
+        <div class="row row-cols-1 row-cols-md-2">
+
+          <div class="col mb-4">
+            <div class="card">
+              <a href="https://giordandelacruz.github.io/math-notes/">
+                <img src="images/math-notes.png" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Giordan's Notebook</h5>
+                <p class="card-text">A online resource for various elementary & high school topics in mathematics.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <a href="https://giordandelacruz.github.io/TinDog/">
+                <img src="images/tindog.png" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Tindog</h5>
+                <p class="card-text">A responsive website where dogs can meet, date, and find love with other dogs. The</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <a href="https://giordandelacruz.github.io/simon-game/">
+                <img src="images/simon.png" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Simon</h5>
+                <p class="card-text">A web browser game that replicates the game functionality for Simon.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <a href="https://giordandelacruz.github.io/drum-kit/">
+                <img src="images/drum-kit.png" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Drum Kit</h5>
+                <p class="card-text">A website that plays the different sounds of a drum kit when an image is clicked or a certain key is pressed.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <a href="https://giordandelacruz.github.io/dicee/">
+                <img src="images/dice.png" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Dice</h5>
+                <p class="card-text">This program rolls 2 dice and determines the winner based on the highest roll in JavaScript.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+      <!-- <section class="" id="testimonials">
         <div id="personal-projects-carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators ">
             <li data-target="#personal-projects-carousel" data-slide-to="0" class="active"></li>
@@ -222,7 +298,8 @@
             </a>
           </div>
         </div>
-      </section>
+      </section> -->
+
     </section>
 
     <!-- Footer -->

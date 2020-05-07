@@ -2,7 +2,7 @@
 /*                                       Tag Selectors                                           */
 /*************************************************************************************************/
 html{
-  /* font-size: 16px; */
+
 }
 
 body{
@@ -13,8 +13,6 @@ body{
 }
 
 p {
-  /* font-family: 'Sorts Mill Goudy', serif; */
-  /* font-size: 20.7px; */
   line-height: 1.6;
   color: #3c4245;
 }
@@ -24,10 +22,6 @@ p {
 /*************************************************************************************************/
 
 /* General Stuff */
-.colored-section {
-  background-color: #c9d6df;
-}
-
 .container-fluid {
   text-align: center;
   /* padding: 3% 15% 5.5%; */
@@ -35,21 +29,20 @@ p {
 
 .container {
   text-align: center;
-  padding: 5.5rem 5rem 4rem;
+  padding: 5.5rem 3rem 4rem;
 }
 
 /* Headings */
 .section-header {
   font-family: 'Cinzel', serif;
-  /* font-family: 'Cormorant SC', serif; */
   font-size: 4.2rem;
   /* font-weight: bold; */
-  letter-spacing: 0.04em;
+  /* letter-spacing: 0.04em; */
   margin-bottom: 4rem;
 }
 
 .sub-header{
-  font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Crimson Text', serif;
   font-size: 2.7rem;
   letter-spacing: 0.03em;
 }
@@ -123,6 +116,10 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.navbar {
+  /* padding: 8px 3rem; */
+}
+
 .navbar-brand {
   padding: 0 18px 0 36px;
 }
@@ -132,7 +129,7 @@ p {
 }
 
 .nav-item {
-  padding: 0 1.5rem;
+  padding: 0 0.9rem;
 }
 
 /* About me Section */
@@ -165,8 +162,6 @@ p {
 /* Personal projects Section */
 #personal-projects {
   /* background-color: #ece8d9; */
-  background-color: #f0ece2;
-  padding: 6% 2%;
 }
 
 .asl-hands {
@@ -181,38 +176,9 @@ p {
   vertical-align: middle;
 }
 
-/* Carousel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 30px;
-  width: 30px;
-}
-
-.carousel-indicators {
-  bottom:-50px;
-}
-
-.carousel-inner {
-  margin-bottom:50px;
-}
-
-.carousel-item {
-  height: 27rem;
-}
-
-.carousel-information {
-  display: inline-block;
-  margin: 0 auto;
-  text-align: left;
-  width: 28rem;
-  vertical-align: middle;
-}
-
-
 /* Experience Section */
 #experience{
-  /* background-color: #9d8f8f; */
-  /* padding: 6% 2%; */
+
 }
 
 .books {
@@ -244,7 +210,7 @@ p {
 
 /* Footer Section*/
 #footer{
-  /* background-color: #625757; */
+  background-color: #625757;
 }
 
 .copyright {
