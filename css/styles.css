@@ -48,12 +48,25 @@ p {
 }
 
 /* Paragraphs */
+.indent{
+  text-indent: 2rem;
+}
+
 .paragraph{
 
 }
 
+.dark-paragraph{
+    font-weight: 400;
+}
+
 .light-paragraph{
   font-weight: 300;
+}
+
+.sp-dark-paragraph{
+  font-style: italic;
+  font-weight: 400;
 }
 
 .sp-light-paragraph{
@@ -151,7 +164,8 @@ p {
 .profile-pic{
   border-radius: 1px;
   display: block;
-  max-height: 40rem;
+  /* max-height: 40rem; */
+  /* max-height: 80%; */
   margin: 0 auto;
 }
 
