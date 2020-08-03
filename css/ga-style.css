@@ -32,7 +32,7 @@
 }
 
 .bg-light-grey-3{
-  background-color: #f4f4f4; 
+  background-color: #f4f4f4;
 }
 
 .bg-snow-white{
@@ -76,6 +76,10 @@
   color: #41444b;
 }
 
+.text-crimson{
+  color: #DC143C;
+}
+
 .text-full-white{
   color: #fff;
 }
@@ -98,9 +102,5 @@
 }
 
 .shadow-3d{
-  text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
-}
-
-.grey-shadow-2{
-
+  text-shadow: 5px 5px 0 rgba(0,0,0,0.2);
 }

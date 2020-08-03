@@ -47,6 +47,11 @@ p {
   letter-spacing: 0.03em;
 }
 
+.cta-header{
+  font-family: 'Cinzel', serif;
+  font-size: 3.2rem;
+}
+
 /* Paragraphs */
 .indent{
   text-indent: 2rem;
@@ -201,31 +206,8 @@ p {
 
 }
 
-.books {
-  height: 173px;
-  margin: 0 auto;
-  width: 172px;
-  vertical-align: middle;
-}
-
-.computer {
-  height: 145px;
-  margin: auto;
-  width: 164px;
-  vertical-align: middle;
-}
-
-.people {
-  height: 97px;
-  margin: auto;
-  width: 311px;
-  vertical-align: middle;
-}
-
-.rep-models {
-  height: 160px;
-  position: relative;
-  width: 123px
+.tpl-logo{
+  /* width: 80%; */
 }
 
 /* Footer Section*/
@@ -235,19 +217,11 @@ p {
 
 .copyright {
   font-size: 15px;
-}
-
-.footer-info {
-  padding: 1rem 0 2rem;
+  margin: 0;
 }
 
 .social-icon {
   padding: 0 0.7rem 0.8rem;
-  color: white;
-}
-
-.right-most-social-icon {
-  padding: 0 0 0.8rem 0.7rem;
   color: white;
 }
 
