@@ -27,6 +27,15 @@ p {
   /* padding: 3% 15% 5.5%; */
 }
 
+.card-title{
+  color: #fff;
+  /* text-shadow: 1px 1px white, 0 0 1px #f7f7f7, 0 0 1px white; */
+}
+
+.card-text{
+  color: #fff;
+}
+
 .container {
   text-align: center;
   padding: 5.5rem 3rem 4rem;
@@ -212,7 +221,7 @@ p {
 
 /* Footer Section*/
 #footer{
-  background-color: #625757;
+
 }
 
 .copyright {
