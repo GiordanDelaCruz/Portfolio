@@ -93,9 +93,21 @@
 .bg-wood{
   background-color: #625757;
 }
+
 .bg-dark-wood{
   background-color: #453C38;
 }
+
+/* Logo Colors */
+.bg-github-black{
+  background-color: #24292f;
+}
+
+.bg-github-orange{
+  background-color: #c9510c;
+}
+
+/* Logo Borders */
 
 /* Text Colors */
 .text-full-black{
