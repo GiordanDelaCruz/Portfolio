@@ -66,6 +66,10 @@
   background-color: #f4f4f4;
 }
 
+.bg-ceramic{
+  background-color: #FDF6EC;
+}
+
 .bg-snow-white{
   background-color: #f8f9fa;
 }
@@ -148,6 +152,14 @@
 
 .text-cherry-blossom{
   color: #ffb7c5
+}
+
+.text-light-blue{
+  color: #B7CADB;
+}
+
+.text-dark-brown{
+  color: #453C38;
 }
 
 /* Text Shadows */
